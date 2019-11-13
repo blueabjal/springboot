@@ -1,4 +1,3 @@
 FROM openjdk:8
-COPY *.jar .
-EXPOSE 8081
+COPY target/*.jar .
 CMD java -jar *.jar
